@@ -6,11 +6,107 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
+    <div class="contain">
+        <header>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__list-item">
+                        <a href="#about-me-link">about me</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a href="#skill-link">skill</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a href="#contact-link">contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
+        <main>
+            <h1 class="visually-hidden">my CV</h1>
+            <section class="about-me" id="about-me-link">
+                <h2 class="about-me__title">About me</h2>
+                <div class="about-me__content">
+                    <img class="about-me__content-img" src="./images/5f989a9d7e1c9e3a8a12affdaedae11b.jpg" width="200" alt="avatar">
+                    <p class="about-me__content-text">
+                        I am nobody and nothing. That's all the information about me. <br> <br> <span class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam perferendis atque laborum dicta. In at amet natus ab quaerat,
+                        numquam quam aliquam facilis! Ex temporibus tenetur at suscipit numquam itaque officia quod, sint dignissimos? Quas praesentium repellendus molestiae, voluptas sapiente recusandae. Non neque quaerat magni aliquam sed!</span>
+                    </p>
+
+                </div>
+            </section>
+            <section id="contact-link">
+                <h2>My contacts</h2>
+                <ul>
+                    <li><a href="mailto:lilithshoax@gmail.com">lilithshoax@gmail.com</a> - e-mail</li>
+                    <li>Crematorium#6424 - discord</li>
+                </ul>
+            </section>
+
+            <section id="skill-link">
+                <h2>My skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Example code</h2>
+                <p class="code">
+                    <code>
+                    <span class="func">def</span> <span class="merge">merge</span>(<span class="dic">dic1</span>,<span class="dic">dic2</span>): <br> 
+                    &nbsp;&nbsp; dic3<span class="func">=</span><span class="merge">copy</span>() <br> 
+                    &nbsp;&nbsp; dic3.<span class="merge">update</span>(dic2)<br> 
+                    &nbsp;&nbsp; <span class="func">return</span> dic3 <br> dic1<span class="func">=</span>{<span class="dic">1</span>:<span class="string">"hello"</span>, <span class="dic">2</span>:<span class="string">"world"</span> } <br>
+                    dic2<span class="func">=</span>{<span class="dic">3</span>:<span class="string">"Python"</span>, <span class="dic">4</span>:<span class="string">"Programming"</span>} <br>
+                    <span class="merge">merge</span>(dic1,dic2) <span class="result"># {1: 'hello', 2: 'world', 3: 'Python', 4: 'Programming'}</span>
+                </code>
+                </p>
+            </section>
+            <section class="projects">
+                <h2>My projects <span class="props">!PROPS!</span></h2>
+                <ul class="projects__list">
+                    <li class="projects__list-item">
+                        <a class="projects__list-item-link" href="#">
+                            <img width="340" src="./images/projectOne.webp" alt="Project 1">
+                        </a>
+                    </li>
+                    <li class="projects__list-item">
+                        <a class="projects__list-item-link" href="#">
+                            <img width="300" src="./images/browser_ntp.webp" alt="Project 2">
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h2>Languages</h2>
+                <dl>
+                    <dt>Russian</dt>
+                    <dd>Native</dd>
+
+                    <dt>English</dt>
+                    <dd>Elementary</dd>
+                </dl>
+            </section>
+            <section>
+                <h2>Education</h2>
+                <p>none</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>made 2022</p>
+            <a href="https://github.com/hoaxOfTheLilith">my GH</a>
+            <a href="https://rs.school/js/">
+                <img src="./images/rss.svg" alt="rss's logo">
+            </a>
+        </footer>
+    </div>
 </body>
 
 </html>

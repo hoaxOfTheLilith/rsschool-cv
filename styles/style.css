@@ -1,0 +1,101 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 3px 23px rgb(230, 224, 224);
+}
+
+body {
+    background-image: url("https://raw.githubusercontent.com/hoaxOfTheLilith/rsschool-cv/rsschool-cv-html/images/backgorund.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contain {
+    width: 900px;
+    margin: 0 auto;
+    padding: 15px 30px;
+    background-color: rgba(214, 222, 230, 0.568);
+    border-radius: 40px;
+}
+
+.nav__list {
+    display: flex;
+    margin-left: -11%;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav__list-item:not(:nth-child(1)) {
+    margin-left: 40px;
+}
+
+
+/* MAIN */
+
+.lorem {
+    color: rgba(0, 0, 0, 0.438);
+}
+
+.props {
+    color: rgba(255, 0, 0, 0.199);
+}
+
+.about-me__content {
+    display: flex;
+}
+
+.about-me__content-text {
+    padding-left: 30px;
+}
+
+.projects__list {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    list-style-type: none;
+    background-color: rgba(250, 235, 215, 0.185);
+    border-radius: 30px;
+}
+
+.about-me__content-img {
+    border-radius: 50%;
+}
+
+
+/* CODE */
+
+code {
+    background-color: rgba(250, 241, 241, 0.63);
+}
+
+.func {
+    color: orangered;
+}
+
+.merge {
+    color: orange;
+}
+
+.string {
+    color: green;
+}
+
+.dic {
+    color: plum;
+}
+
+.result {
+    color: rgba(36, 35, 35, 0.582);
+}
