@@ -17,7 +17,7 @@
 }
 
 body {
-    background-image: url("https://raw.githubusercontent.com/hoaxOfTheLilith/rsschool-cv/rsschool-cv-html/images/bg.jpg");
+    background-image: url(/images/bground);
     background-repeat: no-repeat;
     background-size: cover;
 }
