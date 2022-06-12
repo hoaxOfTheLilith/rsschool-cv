@@ -17,7 +17,7 @@
 }
 
 body {
-    background-image: url(/images/bground);
+    background-image: url("https://raw.githubusercontent.com/hoaxOfTheLilith/rsschool-cv/rsschool-cv-html/images/backgorund.webp");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -67,6 +67,10 @@ body {
     list-style-type: none;
     background-color: rgba(250, 235, 215, 0.185);
     border-radius: 30px;
+}
+
+.about-me__content-img {
+    border-radius: 50%;
 }
 
 
